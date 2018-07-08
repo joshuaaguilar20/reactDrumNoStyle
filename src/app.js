@@ -14,7 +14,7 @@ import Tink from './components/tink';
 import C from './components/C'
 
 
-
+console.log("This is to test for my git status");
 
  class App extends React.Component {
 
@@ -28,7 +28,6 @@ import C from './components/C'
     this.setState({sound})
   }
   
-
 
   render() {
    return (
