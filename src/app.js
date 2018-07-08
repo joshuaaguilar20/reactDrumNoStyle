@@ -14,13 +14,12 @@ import Tink from './components/tink';
 import C from './components/C'
 
 
-console.log("This is to test for my git status");
 
  class App extends React.Component {
 
   constructor(props) {
     super(props);
-    this.state = ({sound:""})
+    this.state = ({sound:"Click or press key to play sound below"})
   }
 
 

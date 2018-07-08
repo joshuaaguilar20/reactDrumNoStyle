@@ -6,7 +6,8 @@
   "license": "MIT",
   "scripts": {
     "serve": "live-server public/",
-    "build": "webpack --watch",
+    "build:dev": "webpack",
+    "build:prod": "webpack -p --env production",
     "dev-server": "webpack-dev-server"
   },
   "dependencies": {
@@ -31,8 +32,11 @@
     "sass-loader": "^7.0.3",
     "style-loader": "^0.21.0",
     "validator": "^10.3.0",
-    "webpack": "^4.12.0",
+    "webpack": "^4.15.1",
     "webpack-cli": "^3.0.7",
     "webpack-dev-server": "^3.1.4"
+  },
+  "devDependencies": {
+    "extract-text-webpack-plugin": "^4.0.0-beta.0"
   }
 }
