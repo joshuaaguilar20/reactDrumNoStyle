@@ -29,7 +29,7 @@
     render() {
       return (
         <div>
-          <button onClick={this.togglePlayHeater1}>'Q'</button>
+          <button onClick={this.togglePlayHeater1} className="drum-pad" id="Q" >'Q'</button>
         </div>
       );
     }

@@ -29,7 +29,7 @@ import React from 'react'
     render() {
       return (
         <div>
-          <button onClick={this.togglePlayHiHat}>' W '</button>
+          <button onClick={this.togglePlayHiHat} className="drum-pad" id="W">' W '</button>
         </div>
       );
     }

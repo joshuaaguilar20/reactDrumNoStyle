@@ -30,7 +30,7 @@ import React from 'react'
     render() {
       return (
         <div>
-          <button onClick={this.togglePlay}> 'E'</button>
+          <button onClick={this.togglePlay} className="drum-pad" id="E"> 'E'</button>
         </div>
       );
     }

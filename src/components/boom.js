@@ -32,9 +32,8 @@ import React from 'react'
   
     render() {
       return (
-        <div>
-          <button onClick={this.togglePlayBoom}> 'A'</button>
-        </div>
+       
+          <button className="drum-pad" id="A" onClick={this.togglePlayBoom}> 'A'</button>
       );
     }
   }

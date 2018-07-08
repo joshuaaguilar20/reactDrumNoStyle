@@ -34,7 +34,7 @@ export default class Ride extends React.Component {
     render() {
       return (
         <div>
-          <button onClick={this.togglePlay}>'S'</button>
+          <button onClick={this.togglePlay} className="drum-pad" id="S">'S'</button>
         </div>
       );
     }

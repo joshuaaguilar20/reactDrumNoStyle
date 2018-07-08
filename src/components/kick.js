@@ -32,7 +32,7 @@ export default class Kick extends React.Component {
     render() {
       return (
         <div>
-          <button onClick={this.togglePlayKick}>'Z'</button>
+          <button onClick={this.togglePlayKick} className="drum-pad" id="Z">'Z'</button>
         </div>
       );
     }
