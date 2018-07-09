@@ -32,7 +32,10 @@ export default class Kick extends React.Component {
     render() {
       return (
         <div>
-          <button onClick={this.togglePlayKick} className="drum-pad" id="Z">'Z'</button>
+        <div className="drum-pad" id="Z"
+        onClick={this.togglePlayKick}>Z 
+        <audio class="clip" id="Z" src="https://s3.amazonaws.com/freecodecamp/drums/Kick_n_Hat.mp3"/>
+        </div>
         </div>
       );
     }

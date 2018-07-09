@@ -29,8 +29,12 @@
     render() {
       return (
         <div>
-          <button onClick={this.togglePlayHeater1} className="drum-pad" id="Q" >'Q'</button>
+        <div className="drum-pad" id="Q"
+        onClick={this.togglePlayHeater1}>Q
+        <audio class="clip" id="Q" src="https://s3.amazonaws.com/freecodecamp/drums/Heater-1.mp3"/>
         </div>
+        </div>
+       
       );
     }
   }

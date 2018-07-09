@@ -31,7 +31,10 @@ export default class Snare extends React.Component {
     render() {
       return (
         <div>
-          <button onClick={this.togglePlaySnare} className="drum-pad" id="D">'D'</button>
+        <div className="drum-pad" id="D"
+        onClick={this.togglePlaySnare}>D
+        <audio class="clip" id="D" src="https://s3.amazonaws.com/freecodecamp/drums/Dsc_Oh.mp3"/>
+        </div>
         </div>
       );
     }

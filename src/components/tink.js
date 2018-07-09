@@ -32,7 +32,10 @@ export default class Tink extends React.Component {
     render() {
       return (
         <div>
-          <button onClick={this.togglePlayTink} className="drum-pad" id="X">'X'</button>
+        <div className="drum-pad" id="X"
+        onClick={this.togglePlayTink}>X
+        <audio class="clip" id="X" src="https://s3.amazonaws.com/freecodecamp/drums/RP4_KICK_1.mp3"/>
+        </div>
         </div>
       );
     }

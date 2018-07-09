@@ -29,7 +29,10 @@ import React from 'react'
     render() {
       return (
         <div>
-          <button onClick={this.togglePlayHiHat} className="drum-pad" id="W">' W '</button>
+        <div className="drum-pad" id="W"
+        onClick={this.togglePlayHiHat}>W 
+        <audio class="clip" id="W" src="https://s3.amazonaws.com/freecodecamp/drums/Heater-2.mp3"/>
+        </div>
         </div>
       );
     }

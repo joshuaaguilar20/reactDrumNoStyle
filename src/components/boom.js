@@ -32,8 +32,12 @@ import React from 'react'
   
     render() {
       return (
-       
-          <button className="drum-pad" id="A" onClick={this.togglePlayBoom}> 'A'</button>
+          <div>
+          <div className="drum-pad" id="plays Heater 4 A"
+          onClick={this.togglePlayBoom}>A
+          <audio class="clip" id="A" src="https://s3.amazonaws.com/freecodecamp/drums/Heater-4_1.mp3"/>
+          </div>
+          </div>
       );
     }
   }

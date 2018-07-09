@@ -34,7 +34,10 @@ export default class Ride extends React.Component {
     render() {
       return (
         <div>
-          <button onClick={this.togglePlay} className="drum-pad" id="S">'S'</button>
+        <div className="drum-pad" id="S"
+        onClick={this.togglePlay}>S 
+        <audio class="clip" id="S" src="https://s3.amazonaws.com/freecodecamp/drums/Heater-6.mp3"/>
+        </div>
         </div>
       );
     }

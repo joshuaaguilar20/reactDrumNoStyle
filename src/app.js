@@ -32,7 +32,6 @@ import C from './components/C'
    return (
     <div id='drum-machine'>
      <h1 id="display">{this.state.sound}</h1> 
-      <div className="drum-pads">
      <Clap setSound={this.setSound}/>
      <HiHat setSound={this.setSound}/>
      <OpenHat setSound={this.setSound}/>
@@ -42,7 +41,6 @@ import C from './components/C'
      <Kick setSound={this.setSound}/>
      <Tink setSound={this.setSound}/>
      <C setSound={this.setSound}/>
-       </div>
     </div>
    );
   }

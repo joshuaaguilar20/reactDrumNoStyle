@@ -32,7 +32,10 @@ export default class C extends React.Component {
     render() {
       return (
         <div>
-          <button onClick={this.togglePlayTink} className="drum-pad" id="C">'C'</button>
+        <div className="drum-pad" id="C"
+        onClick={this.togglePlayTink}>C
+        <audio class="clip" id="C" src="https://s3.amazonaws.com/freecodecamp/drums/Cev_H2.mp3"/>
+        </div>
         </div>
       );
     }
